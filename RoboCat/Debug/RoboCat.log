@@ -1,0 +1,42 @@
+﻿  RoboCatPCH.cpp
+  AckRange.cpp
+  ConnectionDetails.cpp
+  Line.cpp
+  ShadowFactory.cpp
+c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocat\src\shadowfactory.cpp(33): warning C4018: '<': signed/unsigned mismatch
+c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocat\src\shadowfactory.cpp(69): warning C4018: '<': signed/unsigned mismatch
+c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocat\src\shadowfactory.cpp(71): warning C4018: '<': signed/unsigned mismatch
+  SoundManager.cpp
+  Trigonometry.cpp
+  Yarn.cpp
+  DeliveryNotificationManager.cpp
+  Engine.cpp
+c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocat\src\engine.cpp(42): warning C4100: 'p_event': unreferenced formal parameter
+  GameObjectRegistry.cpp
+  InFlightPacket.cpp
+  InputState.cpp
+  MemoryBitStream.cpp
+  Move.cpp
+  MoveList.cpp
+  NetworkManager.cpp
+  RoboMath.cpp
+  ScoreBoardManager.cpp
+  RoboCat.cpp
+c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocat\src\robocat.cpp(69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocat\src\robocat.cpp(22): warning C4100: 'inDeltaTime': unreferenced formal parameter
+  SocketAddress.cpp
+  Generating Code...
+c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocat\src\engine.cpp(73): warning C4701: potentially uninitialized local variable 'eve' used
+  Compiling...
+  SocketAddressFactory.cpp
+  SocketUtil.cpp
+c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocat\src\socketutil.cpp(90): warning C4100: 'ioNaxNfds': unreferenced formal parameter
+  StringUtils.cpp
+  TCPSocket.cpp
+  Timing.cpp
+  GameObject.cpp
+  Mouse.cpp
+  UDPSocket.cpp
+  World.cpp
+  Generating Code...
+  RoboCat.vcxproj -> C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCat\Bin\Debug\RoboCat.lib
