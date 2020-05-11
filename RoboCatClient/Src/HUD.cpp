@@ -7,9 +7,7 @@ HUD::HUD() :
 mScoreBoardOrigin( 50.f, 60.f, 0.0f ),
 mBandwidthOrigin( 250.f, 10.f, 0.0f ),
 mRoundTripTimeOrigin( 50.f, 10.f, 0.0f ),
-mScoreOffset( 0.f, 50.f, 0.0f ),
-mHealthOffset( 1000, 10.f, 0.0f ),
-mHealth( 0 )
+mScoreOffset( 0.f, 50.f, 0.0f )
 {
 
 }
@@ -25,7 +23,7 @@ void HUD::Render()
 	RenderBandWidth();
 	RenderRoundTripTime();
 	RenderScoreBoard();
-	RenderHealth();
+	//RenderHealth();
 }
 
 void HUD::RenderHealth()
