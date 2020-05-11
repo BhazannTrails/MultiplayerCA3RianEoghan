@@ -10,16 +10,16 @@
   RoboCatServer.cpp
   MouseServer.cpp
   Generating Code...
-  RoboCatServer.vcxproj -> C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\Debug\RoboCatServer.exe
+  RoboCatServer.vcxproj -> C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\Debug\RoboCatServer.exe
   Copying SDL DLLs...
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatServer\\..\SDL\lib\win\x86\libfreetype-6.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatServer\\..\SDL\lib\win\x86\libogg-0.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatServer\\..\SDL\lib\win\x86\libpng16-16.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatServer\\..\SDL\lib\win\x86\libvorbis-0.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatServer\\..\SDL\lib\win\x86\libvorbisfile-3.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatServer\\..\SDL\lib\win\x86\SDL2.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatServer\\..\SDL\lib\win\x86\SDL2_image.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatServer\\..\SDL\lib\win\x86\SDL2_mixer.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatServer\\..\SDL\lib\win\x86\SDL2_ttf.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatServer\\..\SDL\lib\win\x86\zlib1.dll
+  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libfreetype-6.dll
+  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libogg-0.dll
+  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libpng16-16.dll
+  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libvorbis-0.dll
+  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libvorbisfile-3.dll
+  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2.dll
+  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2_image.dll
+  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2_mixer.dll
+  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2_ttf.dll
+  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\zlib1.dll
   10 File(s) copied
