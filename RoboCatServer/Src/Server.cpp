@@ -24,7 +24,7 @@ Server::Server()
 
 	InitNetworkManager();
 
-	TimeBetweenSpawns = 5.f;
+	TimeBetweenSpawns = 10.f;
 	SpawnTime = 0.f;
 	//NetworkManagerServer::sInstance->SetDropPacketChance( 0.8f );
 	//NetworkManagerServer::sInstance->SetSimulatedLatency( 0.25f );
@@ -71,7 +71,7 @@ namespace
 		Vector3 mouseMax(1920.f, 1280.f, 0.f );
 		GameObjectPtr go;
 		Vector3 mouseLocation;
-		float size = 32;
+		float size = 26;
 		//make a mouse somewhere- where will these come from?
 		for (int i = 0; i < inMouseCount; ++i)
 		{

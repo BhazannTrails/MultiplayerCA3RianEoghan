@@ -1,4 +1,53 @@
-﻿  SFHealthSpriteComponent.cpp
+﻿  RoboCatClientPCH.cpp
+  FontManger.cpp
+  Log.cpp
+  PlayerTextureGenerator.cpp
+  SFHealthSpriteComponent.cpp
+  SFRenderManger.cpp
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\SFRenderManger.cpp(166,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\SFRenderManger.cpp(166,22): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  SFSpriteComponent.cpp
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\SFSpriteComponent.cpp(20,42): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\SFSpriteComponent.cpp(20,29): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  SFTextureManager.cpp
+  SFWindowManager.cpp
+  TexturedWorld.cpp
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(35,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(37,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(43,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(43,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(49,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(55,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(55,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(61,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(61,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  YarnClient.cpp
+  Client.cpp
+  ClientMain.cpp
+  HUD.cpp
+  InputManager.cpp
+  NetworkManagerClient.cpp
+  ReplicationManagerClient.cpp
+  RoboCatClient.cpp
+  MouseClient.cpp
+  Generating Code...
   RoboCatClient.vcxproj -> C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\Debug\RoboCatClient.exe
   Copying SDL DLLs...
   C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libfreetype-6.dll
