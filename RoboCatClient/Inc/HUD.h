@@ -9,7 +9,8 @@ public:
 
 	void Render();
 
-	void			SetPlayerHealth( int inHealth )	{ mHealth = inHealth; }
+	void			SetPlayer
+	( int inHealth )	{ mHealth = inHealth; }
 
 private:
 

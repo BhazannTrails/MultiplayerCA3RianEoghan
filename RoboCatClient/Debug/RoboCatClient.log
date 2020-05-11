@@ -1,49 +1,13 @@
-﻿  RoboCatClientPCH.cpp
-  FontManger.cpp
-  Log.cpp
-  PlayerTextureGenerator.cpp
-  SFHealthSpriteComponent.cpp
-  SFRenderManger.cpp
-c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocatclient\src\sfrendermanger.cpp(166): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-  SFSpriteComponent.cpp
-c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocatclient\src\sfspritecomponent.cpp(20): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-  SFTextureManager.cpp
-  SFWindowManager.cpp
-  TexturedWorld.cpp
-c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocatclient\src\texturedworld.cpp(35): warning C4018: '<': signed/unsigned mismatch
-c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocatclient\src\texturedworld.cpp(37): warning C4018: '<': signed/unsigned mismatch
-c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocatclient\src\texturedworld.cpp(43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocatclient\src\texturedworld.cpp(49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocatclient\src\texturedworld.cpp(55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\multiplayerprogrammingca3\shadowmultiplayer\shadowmultiplayer\robocatclient\src\texturedworld.cpp(61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  YarnClient.cpp
-  Client.cpp
-  ClientMain.cpp
-  HUD.cpp
-  InputManager.cpp
-  NetworkManagerClient.cpp
-  ReplicationManagerClient.cpp
-  RoboCatClient.cpp
-  MouseClient.cpp
-  Generating Code...
-  RoboCatClient.vcxproj -> C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\Debug\RoboCatClient.exe
+﻿  RoboCatClient.vcxproj -> C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\Debug\RoboCatClient.exe
   Copying SDL DLLs...
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatClient\\..\SDL\lib\win\x86\libfreetype-6.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatClient\\..\SDL\lib\win\x86\libogg-0.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatClient\\..\SDL\lib\win\x86\libpng16-16.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatClient\\..\SDL\lib\win\x86\libvorbis-0.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatClient\\..\SDL\lib\win\x86\libvorbisfile-3.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatClient\\..\SDL\lib\win\x86\SDL2.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatClient\\..\SDL\lib\win\x86\SDL2_image.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatClient\\..\SDL\lib\win\x86\SDL2_mixer.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatClient\\..\SDL\lib\win\x86\SDL2_ttf.dll
-  C:\MultiplayerProgrammingCA3\ShadowMultiplayer\ShadowMultiplayer\RoboCatClient\\..\SDL\lib\win\x86\zlib1.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libfreetype-6.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libogg-0.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libpng16-16.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libvorbis-0.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libvorbisfile-3.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2_image.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2_mixer.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2_ttf.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\zlib1.dll
   10 File(s) copied
