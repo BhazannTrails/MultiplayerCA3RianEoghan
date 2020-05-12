@@ -154,7 +154,7 @@ void RoboCat::ProcessCollisions()
 		GameObject* target = goIt->get();
 		if (target->GetClassId() == 'MOUS')
 		{
-			mGunCount = 3;
+			
 		}
 		if( target != this && !target->DoesWantToDie() )
 		{

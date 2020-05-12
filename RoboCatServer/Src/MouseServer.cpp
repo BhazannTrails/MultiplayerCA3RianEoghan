@@ -13,19 +13,25 @@ void MouseServer::HandleDying()
 
 bool MouseServer::HandleCollisionWithCat( RoboCat* inCat )
 {
-	if (!picked)
+	if (inCat->GetGunCount() < 1)
 	{
-		/*if (inCat->GetHealth() <= 15)
-			inCat->GetHealth()++;*/
-		picked = true;
-		
-		// Hacked in here.
-		int ECRS_Health = 1 << 3;
-		NetworkManagerServer::sInstance->SetStateDirty(inCat->GetNetworkId(), ECRS_Health);
+		if (!picked)
+		{
+			/*if (inCat->GetHealth() <= 15)
+				inCat->GetHealth()++;*/
+			picked = true;
+			inCat->GetGunCount()++;
+
+			// Hacked in here.
+			int ECRS_Health = 1 << 3;
+			int ECRS_GunCount = 1 << 4;
+			NetworkManagerServer::sInstance->SetStateDirty(inCat->GetNetworkId(), ECRS_Health);
+			NetworkManagerServer::sInstance->SetStateDirty(inCat->GetNetworkId(), ECRS_GunCount);
+		}
+		//kill yourself!
+		SetDoesWantToDie(true);
+		return false;
 	}
-	//kill yourself!
-	SetDoesWantToDie( true );
-	return false;
 }
 
 

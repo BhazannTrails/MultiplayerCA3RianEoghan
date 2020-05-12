@@ -10,16 +10,19 @@ Mouse::Mouse()
 
 bool Mouse::HandleCollisionWithCat( RoboCat* inCat )
 {
-	if (!picked && inCat->ECRS_GunCount != 3)
+	if (inCat->GetGunCount() < 1)
 	{
-//		inCat->GetHealth()++;
-//		picked = true;
+		if (!picked)
+		{
+			//		inCat->GetHealth()++;
+			//		picked = true;
 
-		SoundManager::sInstance->PlaySound(SoundManager::SoundToPlay::STP_Pickup);
+			SoundManager::sInstance->PlaySound(SoundManager::SoundToPlay::STP_Pickup);
+		}
+		(void)inCat;
+
+		return false;
 	}
-	( void ) inCat;
-	
-	return false;
 }
 
 
