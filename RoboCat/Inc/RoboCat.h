@@ -9,8 +9,9 @@ public:
 		ECRS_Color = 1 << 1,
 		ECRS_PlayerId = 1 << 2,
 		ECRS_Health = 1 << 3,
+		ECRS_GunCount = 1 << 4,
 
-		ECRS_AllState = ECRS_Pose | ECRS_Color | ECRS_PlayerId | ECRS_Health
+		ECRS_AllState = ECRS_Pose | ECRS_Color | ECRS_PlayerId | ECRS_Health | ECRS_GunCount
 	};
 
 
@@ -34,6 +35,7 @@ public:
 	const Vector3&	GetVelocity()						const	{ return mVelocity; }
 
 	uint8_t& GetHealth() { return mHealth; };
+	uint8_t& GetGunCount() { return mGunCount; };
 
 	virtual uint32_t	Write( OutputMemoryBitStream& inOutputStream, uint32_t inDirtyState ) const override;
 
@@ -68,6 +70,7 @@ protected:
 
 	sf::Vector2f		mThrustDir;
 	uint8_t					mHealth;
+	uint8_t					mGunCount;
 
 	bool				mIsShooting;
 

@@ -1,7 +1,15 @@
 ﻿  RoboCatClientPCH.cpp
+  Client.cpp
+  ClientMain.cpp
   FontManger.cpp
+  HUD.cpp
+  InputManager.cpp
   Log.cpp
+  MouseClient.cpp
+  NetworkManagerClient.cpp
   PlayerTextureGenerator.cpp
+  ReplicationManagerClient.cpp
+  RoboCatClient.cpp
   SFHealthSpriteComponent.cpp
   SFRenderManger.cpp
 C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\SFRenderManger.cpp(166,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
@@ -39,14 +47,6 @@ C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\Textur
 C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(61,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\Src\TexturedWorld.cpp(61,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   YarnClient.cpp
-  Client.cpp
-  ClientMain.cpp
-  HUD.cpp
-  InputManager.cpp
-  NetworkManagerClient.cpp
-  ReplicationManagerClient.cpp
-  RoboCatClient.cpp
-  MouseClient.cpp
   Generating Code...
   RoboCatClient.vcxproj -> C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\Debug\RoboCatClient.exe
   Copying SDL DLLs...

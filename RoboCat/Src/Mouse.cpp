@@ -5,11 +5,12 @@ Mouse::Mouse()
 	SetScale( GetScale() * 1.f );
 	SetCollisionRadius( 20.f );
 	picked = false;
+	
 }
 
 bool Mouse::HandleCollisionWithCat( RoboCat* inCat )
 {
-	if (!picked)
+	if (!picked && inCat->ECRS_GunCount != 3)
 	{
 //		inCat->GetHealth()++;
 //		picked = true;
@@ -17,6 +18,7 @@ bool Mouse::HandleCollisionWithCat( RoboCat* inCat )
 		SoundManager::sInstance->PlaySound(SoundManager::SoundToPlay::STP_Pickup);
 	}
 	( void ) inCat;
+	
 	return false;
 }
 

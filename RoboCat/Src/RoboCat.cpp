@@ -14,7 +14,8 @@ RoboCat::RoboCat() :
 	mThrustDir( sf::Vector2f(0.f, 0.f) ),
 	mPlayerId( 0 ),
 	mIsShooting( false ),
-	mHealth( 1 )
+	mHealth( 1 ),
+	mGunCount( 0 )
 {
 	SetCollisionRadius( 20.f );
 }
@@ -153,6 +154,7 @@ void RoboCat::ProcessCollisions()
 		GameObject* target = goIt->get();
 		if (target->GetClassId() == 'MOUS')
 		{
+			mGunCount = 3;
 		}
 		if( target != this && !target->DoesWantToDie() )
 		{
@@ -285,6 +287,18 @@ uint32_t RoboCat::Write( OutputMemoryBitStream& inOutputStream, uint32_t inDirty
 	else
 	{
 		inOutputStream.Write( (bool)false );
+	}
+
+	if (inDirtyState & ECRS_GunCount)
+	{
+		inOutputStream.Write((bool)true);
+		inOutputStream.Write(mGunCount, 4);
+
+		writtenState |= ECRS_GunCount;
+	}
+	else
+	{
+		inOutputStream.Write((bool)false);
 	}
 
 	return writtenState;

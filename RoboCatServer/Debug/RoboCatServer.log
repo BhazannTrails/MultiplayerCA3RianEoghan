@@ -1,14 +1,14 @@
 ﻿  RoboCatServerPCH.cpp
-  PersistantPlayerSprites.cpp
-  YarnServer.cpp
   ClientProxy.cpp
+  MouseServer.cpp
+  NetworkManagerServer.cpp
+  PersistantPlayerSprites.cpp
   ReplicationManagerServer.cpp
   ReplicationManagerTransmissionData.cpp
+  RoboCatServer.cpp
   Server.cpp
   ServerMain.cpp
-  NetworkManagerServer.cpp
-  RoboCatServer.cpp
-  MouseServer.cpp
+  YarnServer.cpp
   Generating Code...
   RoboCatServer.vcxproj -> C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\Debug\RoboCatServer.exe
   Copying SDL DLLs...
