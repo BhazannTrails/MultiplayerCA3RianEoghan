@@ -22,10 +22,12 @@ public:
 	void			SetVelocity( const Vector3& inVelocity )	{ mVelocity = inVelocity; }
 	const Vector3&	GetVelocity() const					{ return mVelocity; }
 
+
 	void		SetPlayerId( int inPlayerId )	{ mPlayerId = inPlayerId; }
 	int			GetPlayerId() const				{ return mPlayerId; }
 
 	void		InitFromShooter( RoboCat* inShooter );
+	void		InitFromShooterShootMode2(RoboCat* inShooter);
 
 	virtual void Update() override;
 
@@ -39,6 +41,8 @@ protected:
 
 	float		mMuzzleSpeed;
 	int			mPlayerId;
+	uint8_t		projectileType1;
+	uint8_t		projectileType2;
 
 };
 

@@ -36,6 +36,8 @@ public:
 
 	uint8_t& GetHealth() { return mHealth; };
 	uint8_t& GetGunCount() { return mGunCount; };
+	uint8_t& GetShootMode() { return mShootMode; };
+	void setShootMode(uint8_t newShootMode) { mShootMode = newShootMode; };
 
 	virtual uint32_t	Write( OutputMemoryBitStream& inOutputStream, uint32_t inDirtyState ) const override;
 
@@ -71,6 +73,7 @@ protected:
 	sf::Vector2f		mThrustDir;
 	uint8_t					mHealth;
 	uint8_t					mGunCount;
+	uint8_t				mShootMode;
 
 	bool				mIsShooting;
 

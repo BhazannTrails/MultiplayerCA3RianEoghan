@@ -15,7 +15,8 @@ RoboCat::RoboCat() :
 	mPlayerId( 0 ),
 	mIsShooting( false ),
 	mHealth( 1 ),
-	mGunCount( 0 )
+	mGunCount( 0 ),
+	mShootMode(0)
 {
 	SetCollisionRadius( 20.f );
 }

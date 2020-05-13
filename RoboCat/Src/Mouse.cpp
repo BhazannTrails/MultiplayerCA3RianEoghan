@@ -1,4 +1,5 @@
 #include <RoboCatPCH.h>
+#include <cstdlib>
 
 Mouse::Mouse()
 {
@@ -14,8 +15,10 @@ bool Mouse::HandleCollisionWithCat( RoboCat* inCat )
 	{
 		if (!picked)
 		{
+			
+			inCat->setShootMode(2);
 			//		inCat->GetHealth()++;
-			//		picked = true;
+			picked = true;
 
 			SoundManager::sInstance->PlaySound(SoundManager::SoundToPlay::STP_Pickup);
 		}

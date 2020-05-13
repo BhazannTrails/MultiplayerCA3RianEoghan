@@ -1,3 +1,43 @@
-﻿  Mouse.cpp
-C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCat\Src\Mouse.cpp(26): warning C4715: 'Mouse::HandleCollisionWithCat': not all control paths return a value
-  RoboCat.vcxproj -> C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCat\Bin\Debug\RoboCat.lib
+﻿  RoboCatPCH.cpp
+  AckRange.cpp
+  ConnectionDetails.cpp
+  DeliveryNotificationManager.cpp
+  Engine.cpp
+c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocat\src\engine.cpp(42): warning C4100: 'p_event': unreferenced formal parameter
+  GameObject.cpp
+  GameObjectRegistry.cpp
+  InFlightPacket.cpp
+  InputState.cpp
+  Line.cpp
+  MemoryBitStream.cpp
+  Mouse.cpp
+  Move.cpp
+  MoveList.cpp
+  NetworkManager.cpp
+  RoboCat.cpp
+c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocat\src\robocat.cpp(71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocat\src\robocat.cpp(24): warning C4100: 'inDeltaTime': unreferenced formal parameter
+  RoboMath.cpp
+  ScoreBoardManager.cpp
+  ShadowFactory.cpp
+c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocat\src\shadowfactory.cpp(33): warning C4018: '<': signed/unsigned mismatch
+c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocat\src\shadowfactory.cpp(69): warning C4018: '<': signed/unsigned mismatch
+c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocat\src\shadowfactory.cpp(71): warning C4018: '<': signed/unsigned mismatch
+  SocketAddress.cpp
+  SocketAddressFactory.cpp
+  Generating Code...
+c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocat\src\mouse.cpp(29): warning C4715: 'Mouse::HandleCollisionWithCat': not all control paths return a value
+c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocat\src\engine.cpp(73): warning C4701: potentially uninitialized local variable 'eve' used
+  Compiling...
+  SocketUtil.cpp
+c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocat\src\socketutil.cpp(90): warning C4100: 'ioNaxNfds': unreferenced formal parameter
+  SoundManager.cpp
+  StringUtils.cpp
+  TCPSocket.cpp
+  Timing.cpp
+  Trigonometry.cpp
+  UDPSocket.cpp
+  World.cpp
+  Yarn.cpp
+  Generating Code...
+  RoboCat.vcxproj -> C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCat\Bin\Debug\RoboCat.lib

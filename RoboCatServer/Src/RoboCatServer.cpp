@@ -49,7 +49,10 @@ void RoboCatServer::Update()
 		SimulateMovement( Timing::sInstance.GetDeltaTime() );
 	}
 
-	HandleShooting();
+	
+
+		HandleShooting();
+	
 
 	if( !RoboMath::Is2DVectorEqual( oldLocation, GetLocation() ) ||
 		!RoboMath::Is2DVectorEqual( oldVelocity, GetVelocity() ) ||
@@ -62,15 +65,24 @@ void RoboCatServer::Update()
 
 void RoboCatServer::HandleShooting()
 {
+
+	
 	float time = Timing::sInstance.GetFrameStartTime();
 	if( mIsShooting && Timing::sInstance.GetFrameStartTime() > mTimeOfNextShot )
 	{
 		//not exact, but okay
 		mTimeOfNextShot = time + mTimeBetweenShots;
-
+		
 		//fire!
-		YarnPtr yarn = std::static_pointer_cast< Yarn >( GameObjectRegistry::sInstance->CreateGameObject( 'YARN' ) );
-		yarn->InitFromShooter( this );
+		
+			YarnPtr yarn = std::static_pointer_cast<Yarn>(GameObjectRegistry::sInstance->CreateGameObject('YARN'));
+			yarn->InitFromShooter(this);
+		
+			//if (this->mShootMode == 2) {
+			YarnPtr yarn2 = std::static_pointer_cast<Yarn>(GameObjectRegistry::sInstance->CreateGameObject('YARN'));
+			yarn2->InitFromShooterShootMode2(this);
+		//}
+
 	}
 }
 
