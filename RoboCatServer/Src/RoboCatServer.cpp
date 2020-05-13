@@ -8,7 +8,10 @@ RoboCatServer::RoboCatServer() :
 
 void RoboCatServer::HandleDying()
 {
+	GameObjectPtr bl;
 	NetworkManagerServer::sInstance->UnregisterGameObject( this );
+	//bl = GameObjectRegistr::sInstance->CreateGameObject('BLOD');
+	//bl->SetLocation(this->GetLocation());
 }
 
 void RoboCatServer::Update()
