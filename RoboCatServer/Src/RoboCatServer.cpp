@@ -66,23 +66,26 @@ void RoboCatServer::Update()
 void RoboCatServer::HandleShooting()
 {
 
-	
-	float time = Timing::sInstance.GetFrameStartTime();
-	if( mIsShooting && Timing::sInstance.GetFrameStartTime() > mTimeOfNextShot )
+	if (RoboCat::GetGunCount() > 0)
 	{
-		//not exact, but okay
-		mTimeOfNextShot = time + mTimeBetweenShots;
-		
-		//fire!
-		
+		float time = Timing::sInstance.GetFrameStartTime();
+		if (mIsShooting && Timing::sInstance.GetFrameStartTime() > mTimeOfNextShot)
+		{
+			//not exact, but okay
+			mTimeOfNextShot = time + mTimeBetweenShots;
+
+			//fire!
+
 			YarnPtr yarn = std::static_pointer_cast<Yarn>(GameObjectRegistry::sInstance->CreateGameObject('YARN'));
 			yarn->InitFromShooter(this);
-		
+
 			//if (this->mShootMode == 2) {
 			YarnPtr yarn2 = std::static_pointer_cast<Yarn>(GameObjectRegistry::sInstance->CreateGameObject('YARN'));
 			yarn2->InitFromShooterShootMode2(this);
-		//}
+			RoboCat::GetGunCount()--;
+			//}
 
+		}
 	}
 }
 

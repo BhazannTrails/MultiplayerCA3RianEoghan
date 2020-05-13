@@ -20,8 +20,10 @@ bool MouseServer::HandleCollisionWithCat( RoboCat* inCat )
 			/*if (inCat->GetHealth() <= 15)
 				inCat->GetHealth()++;*/
 			picked = true;
-			inCat->GetGunCount()++;
-
+			for (int i = 0; i < 3; i++)
+			{
+				inCat->GetGunCount()++;
+			}
 			// Hacked in here.
 			int ECRS_Health = 1 << 3;
 			int ECRS_GunCount = 1 << 4;
