@@ -12,10 +12,10 @@ SFTextureManager::SFTextureManager()
 	CacheTexture("cat", "../Assets/cat.png");
 	CacheTexture("gun", "../Assets/gun.png");
 	CacheTexture("bullet", "../Assets/bullet.png");
-	CacheTexture("tile", "../Assets/tile.png");
-	CacheTexture("tileAqua", "../Assets/tileAqua.png");
+	CacheTexture("tile", "../Assets/neon.jpg");
+	CacheTexture("tileAqua", "../Assets/neonBlue.jpg");
 	CacheTexture("checkeredtile", "../Assets/checkeredtile.png");
-	CacheTexture("beigetile", "../Assets/beigetile.png");
+	CacheTexture("beigetile", "../Assets/neon.jpg");
 	CacheTexture("start_screen", "../Assets/start_screen.png");
 	CacheTexture("died_screen", "../Assets/died_screen.png");
 	CacheTexture("winner_screen", "../Assets/winner_screen.png");
