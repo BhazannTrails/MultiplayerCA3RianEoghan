@@ -28,6 +28,7 @@ public:
 
 	void		InitFromShooter( RoboCat* inShooter );
 	void		InitFromShooterShootMode2(RoboCat* inShooter);
+	void		InitFromShooterShootMode2B(RoboCat* inShooter);
 
 	virtual void Update() override;
 

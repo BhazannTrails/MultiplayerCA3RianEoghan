@@ -72,6 +72,7 @@ void RoboCatServer::HandleShooting()
 	if (RoboCat::GetGunCount() > 0)
 	{
 		float time = Timing::sInstance.GetFrameStartTime();
+		//Eoghan
 		if (mIsShooting && Timing::sInstance.GetFrameStartTime() > mTimeOfNextShot)
 		{
 			//not exact, but okay
@@ -82,11 +83,23 @@ void RoboCatServer::HandleShooting()
 			YarnPtr yarn = std::static_pointer_cast<Yarn>(GameObjectRegistry::sInstance->CreateGameObject('YARN'));
 			yarn->InitFromShooter(this);
 
-			//if (this->mShootMode == 2) {
-			YarnPtr yarn2 = std::static_pointer_cast<Yarn>(GameObjectRegistry::sInstance->CreateGameObject('YARN'));
-			yarn2->InitFromShooterShootMode2(this);
+			if (RoboCat::GetShootMode() == 2) {
+				
+				YarnPtr yarn2 = std::static_pointer_cast<Yarn>(GameObjectRegistry::sInstance->CreateGameObject('YARN'));
+				yarn2->InitFromShooterShootMode2(this);
+
+			}
+
+			if (RoboCat::GetShootMode() == 3) {
+
+				YarnPtr yarn2 = std::static_pointer_cast<Yarn>(GameObjectRegistry::sInstance->CreateGameObject('YARN'));
+				yarn2->InitFromShooterShootMode2(this);
+			
+				YarnPtr yarn3 = std::static_pointer_cast<Yarn>(GameObjectRegistry::sInstance->CreateGameObject('YARN'));
+				yarn3->InitFromShooterShootMode2B(this);
+			}
+
 			RoboCat::GetGunCount()--;
-			//}
 
 		}
 	}

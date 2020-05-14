@@ -302,5 +302,17 @@ uint32_t RoboCat::Write( OutputMemoryBitStream& inOutputStream, uint32_t inDirty
 		inOutputStream.Write((bool)false);
 	}
 
+	if (inDirtyState & ECRS_ShootMode)
+	{
+		inOutputStream.Write((bool)true);
+		inOutputStream.Write(mShootMode, 4);
+
+		writtenState |= ECRS_ShootMode;
+	}
+	else
+	{
+		inOutputStream.Write((bool)false);
+	}
+
 	return writtenState;
 }

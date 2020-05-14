@@ -1,15 +1,26 @@
-﻿  MouseServer.cpp
-C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\Src\MouseServer.cpp(37): warning C4715: 'MouseServer::HandleCollisionWithCat': not all control paths return a value
-  RoboCatServer.vcxproj -> C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\Debug\RoboCatServer.exe
+﻿  RoboCatServerPCH.cpp
+  ClientProxy.cpp
+  MouseServer.cpp
+  NetworkManagerServer.cpp
+  PersistantPlayerSprites.cpp
+  ReplicationManagerServer.cpp
+  ReplicationManagerTransmissionData.cpp
+  RoboCatServer.cpp
+  Server.cpp
+  ServerMain.cpp
+  YarnServer.cpp
+  Generating Code...
+c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocatserver\src\mouseserver.cpp(47): warning C4715: 'MouseServer::HandleCollisionWithCat': not all control paths return a value
+  RoboCatServer.vcxproj -> C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\Debug\RoboCatServer.exe
   Copying SDL DLLs...
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libfreetype-6.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libogg-0.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libpng16-16.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libvorbis-0.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libvorbisfile-3.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2_image.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2_mixer.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2_ttf.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\zlib1.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libfreetype-6.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libogg-0.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libpng16-16.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libvorbis-0.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\libvorbisfile-3.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2_image.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2_mixer.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\SDL2_ttf.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatServer\\..\SDL\lib\win\x86\zlib1.dll
   10 File(s) copied

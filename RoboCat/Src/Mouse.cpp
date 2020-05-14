@@ -16,7 +16,8 @@ bool Mouse::HandleCollisionWithCat( RoboCat* inCat )
 		if (!picked)
 		{
 			
-			inCat->setShootMode(2);
+			//inCat->SetShootMode(2);
+			//inCat->GetShootMode()++;
 			//		inCat->GetHealth()++;
 			picked = true;
 

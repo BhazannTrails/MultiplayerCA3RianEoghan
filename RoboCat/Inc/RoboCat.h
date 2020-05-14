@@ -10,8 +10,9 @@ public:
 		ECRS_PlayerId = 1 << 2,
 		ECRS_Health = 1 << 3,
 		ECRS_GunCount = 1 << 4,
+		ECRS_ShootMode = 1 << 5,
 
-		ECRS_AllState = ECRS_Pose | ECRS_Color | ECRS_PlayerId | ECRS_Health | ECRS_GunCount
+		ECRS_AllState = ECRS_Pose | ECRS_Color | ECRS_PlayerId | ECRS_Health | ECRS_GunCount | ECRS_ShootMode
 	};
 
 

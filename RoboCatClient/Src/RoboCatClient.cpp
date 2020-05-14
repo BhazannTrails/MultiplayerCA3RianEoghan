@@ -124,8 +124,6 @@ void RoboCatClient::Read( InputMemoryBitStream& inInputStream )
 		mThrustDir.y = 0.f;
 	}
 
-	
-
 	inInputStream.Read( stateBit );
 	if( stateBit )
 	{
@@ -150,6 +148,14 @@ void RoboCatClient::Read( InputMemoryBitStream& inInputStream )
 		inInputStream.Read(mGunCount, 4);
 		readState |= ECRS_Health;
 	}
+
+	inInputStream.Read(stateBit);
+	if (stateBit) {
+		mShootMode = 0;
+		inInputStream.Read(mShootMode, 4);
+		readState |= ECRS_ShootMode;
+	}
+
 
 	if( GetPlayerId() == NetworkManagerClient::sInstance->GetPlayerId() )
 	{

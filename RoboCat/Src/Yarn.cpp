@@ -96,15 +96,10 @@ void Yarn::InitFromShooter( RoboCat* inShooter )
 	sf::Vector2f temp = sf::Vector2f(0, -1);
 	thor::rotate(temp, inShooter->GetRotation());
 	
-	
-	if (inShooter->GetShootMode() == 2) {
-		SetVelocity(Vector3(temp.x, temp.y, 0) * mMuzzleSpeed * 5);
-		
-	}
 
-	else {
+
 		SetVelocity(Vector3(temp.x, temp.y, 0) * mMuzzleSpeed);
-	}
+	
 
 	//SetVelocity(Vector3(normVel.x, normVel.y, 0) * mMuzzleSpeed);
 	
@@ -116,7 +111,6 @@ void Yarn::InitFromShooter( RoboCat* inShooter )
 
 void Yarn::InitFromShooterShootMode2(RoboCat* inShooter)
 {
-
 	SetColor(inShooter->GetColor());
 	SetPlayerId(inShooter->GetPlayerId());
 	Vector3 forward = inShooter->GetForwardVector();
@@ -126,16 +120,32 @@ void Yarn::InitFromShooterShootMode2(RoboCat* inShooter)
 	sf::Vector2f temp = sf::Vector2f(0, -1);
 	thor::rotate(temp, inShooter->GetRotation() + 30);
 
-	if (inShooter->GetShootMode() == 2) {
-		SetVelocity(Vector3(temp.x, temp.y, 0) * mMuzzleSpeed * 5);
 
-	}
 
-	else {
-		SetVelocity(Vector3(temp.x, temp.y, 0) * mMuzzleSpeed);
-	}
+	SetVelocity(Vector3(temp.x, temp.y, 0) * mMuzzleSpeed);
+
 
 	//SetVelocity(Vector3(normVel.x, normVel.y, 0) * mMuzzleSpeed);
+
+	//SetVelocity(Vector3(temp.x, temp.y, 0) * mMuzzleSpeed);
+	SetLocation(inShooter->GetLocation() /*+ Vector3(temp.x,temp.y,0) * 0.55f*/);
+}
+
+void Yarn::InitFromShooterShootMode2B(RoboCat* inShooter)
+{
+
+	SetColor(inShooter->GetColor());
+	SetPlayerId(inShooter->GetPlayerId());
+	Vector3 forward = inShooter->GetForwardVector();
+	Vector3 vel = inShooter->GetVelocity();
+
+	auto normVel = thor::unitVector(sf::Vector2f(vel.mX, vel.mY));
+	sf::Vector2f temp = sf::Vector2f(0, -1);
+	thor::rotate(temp, inShooter->GetRotation() - 30);
+
+
+
+	SetVelocity(Vector3(normVel.x, normVel.y, 0) * mMuzzleSpeed);
 
 	//SetVelocity(Vector3(temp.x, temp.y, 0) * mMuzzleSpeed);
 	SetLocation(inShooter->GetLocation() /*+ Vector3(temp.x,temp.y,0) * 0.55f*/);
