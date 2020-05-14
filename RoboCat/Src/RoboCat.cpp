@@ -7,7 +7,7 @@ const float HALF_WORLD_WIDTH = 6.4f;
 RoboCat::RoboCat() :
 	GameObject(),
 	mMaxRotationSpeed( 5.f ),
-	mMaxLinearSpeed( 5000.f ),
+	mMaxLinearSpeed( 7000.f ),
 	mVelocity( Vector3::Zero ),
 	mWallRestitution( 0.1f ),
 	mCatRestitution( 0.1f ),
