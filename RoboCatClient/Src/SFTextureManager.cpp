@@ -12,6 +12,7 @@ SFTextureManager::SFTextureManager()
 	CacheTexture("cat", "../Assets/cat.png");
 	CacheTexture("gun", "../Assets/gun.png");
 	CacheTexture("bullet", "../Assets/bullet.png");
+	CacheTexture("ResizedBlood", "../Assets/ResizedBlood.png");
 	CacheTexture("tile", "../Assets/neon.jpg");
 	CacheTexture("tileAqua", "../Assets/neonBlue.jpg");
 	CacheTexture("checkeredtile", "../Assets/checkeredtile.png");

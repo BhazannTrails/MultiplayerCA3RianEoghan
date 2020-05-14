@@ -9,7 +9,11 @@ RoboCatServer::RoboCatServer() :
 void RoboCatServer::HandleDying()
 {
 	GameObjectPtr bl;
-	NetworkManagerServer::sInstance->UnregisterGameObject( this );
+	BloodPtr blood = std::static_pointer_cast<Blood>(GameObjectRegistry::sInstance->CreateGameObject('BLOD'));
+	blood->SetLocation(this->GetLocation());
+	NetworkManagerServer::sInstance->UnregisterGameObject(this);
+	
+	//Old Implementation
 	//bl = GameObjectRegistr::sInstance->CreateGameObject('BLOD');
 	//bl->SetLocation(this->GetLocation());
 }

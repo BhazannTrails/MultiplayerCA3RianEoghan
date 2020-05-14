@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Src\BloodServer.cpp" />
     <ClCompile Include="Src\PersistantPlayerSprites.cpp" />
     <ClCompile Include="Src\YarnServer.cpp" />
     <ClCompile Include="Src\ClientProxy.cpp" />
@@ -27,6 +28,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Inc\BloodServer.h" />
     <ClInclude Include="Inc\PersistantPlayerSprites.h" />
     <ClInclude Include="Inc\YarnServer.h" />
     <ClInclude Include="Inc\ClientProxy.h" />

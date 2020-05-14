@@ -1,39 +1,4 @@
-﻿  RoboCatClientPCH.cpp
-  Client.cpp
-  ClientMain.cpp
-  FontManger.cpp
-  HUD.cpp
-  InputManager.cpp
-  Log.cpp
-  MouseClient.cpp
-  NetworkManagerClient.cpp
-  PlayerTextureGenerator.cpp
-  ReplicationManagerClient.cpp
-  RoboCatClient.cpp
-  SFHealthSpriteComponent.cpp
-  SFRenderManger.cpp
-c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocatclient\src\sfrendermanger.cpp(166): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-  SFSpriteComponent.cpp
-c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocatclient\src\sfspritecomponent.cpp(20): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-  SFTextureManager.cpp
-  SFWindowManager.cpp
-  TexturedWorld.cpp
-c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocatclient\src\texturedworld.cpp(35): warning C4018: '<': signed/unsigned mismatch
-c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocatclient\src\texturedworld.cpp(37): warning C4018: '<': signed/unsigned mismatch
-c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocatclient\src\texturedworld.cpp(43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocatclient\src\texturedworld.cpp(49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocatclient\src\texturedworld.cpp(55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\eoghan\source\repos\multiplayerca3rianeoghan\robocatclient\src\texturedworld.cpp(61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  YarnClient.cpp
-  Generating Code...
+﻿  Client.cpp
   RoboCatClient.vcxproj -> C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\Debug\RoboCatClient.exe
   Copying SDL DLLs...
   C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libfreetype-6.dll

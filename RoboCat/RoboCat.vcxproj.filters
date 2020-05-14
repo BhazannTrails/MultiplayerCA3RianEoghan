@@ -127,7 +127,7 @@
     <ClInclude Include="Inc\SoundManager.h">
       <Filter>Inc</Filter>
     </ClInclude>
-    <ClInclude Include="Blood.h">
+    <ClInclude Include="Inc\Blood.h">
       <Filter>Inc</Filter>
     </ClInclude>
   </ItemGroup>
@@ -222,7 +222,7 @@
     <ClCompile Include="Src\SoundManager.cpp">
       <Filter>Src</Filter>
     </ClCompile>
-    <ClCompile Include="Blood.cpp">
+    <ClCompile Include="Src\Blood.cpp">
       <Filter>Src</Filter>
     </ClCompile>
   </ItemGroup>

@@ -69,7 +69,7 @@
     <ClCompile Include="Src\SFHealthSpriteComponent.cpp">
       <Filter>Src</Filter>
     </ClCompile>
-    <ClCompile Include="BloodClient.cpp">
+    <ClCompile Include="Src\BloodClient.cpp">
       <Filter>Src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -125,7 +125,7 @@
     <ClInclude Include="Inc\PlayerTextureGenerator.h">
       <Filter>Inc</Filter>
     </ClInclude>
-    <ClInclude Include="BloodClient.h">
+    <ClInclude Include="Inc\BloodClient.h">
       <Filter>Inc</Filter>
     </ClInclude>
   </ItemGroup>

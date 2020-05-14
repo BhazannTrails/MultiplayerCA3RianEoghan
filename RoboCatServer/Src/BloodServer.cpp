@@ -11,8 +11,8 @@ void BloodServer::HandleDying()
 }
 
 
-bool MouseServer::HandleCollisionWithCat(RoboCat* inCat)
-{
+//bool MouseServer::HandleCollisionWithCat(RoboCat* inCat)
+//{
 	//if (inCat->GetGunCount() < 1)
 	//{
 	//	if (!picked)
@@ -44,6 +44,6 @@ bool MouseServer::HandleCollisionWithCat(RoboCat* inCat)
 	//	SetDoesWantToDie(true);
 	//	return false;
 	//}
-}
+//}
 
 
