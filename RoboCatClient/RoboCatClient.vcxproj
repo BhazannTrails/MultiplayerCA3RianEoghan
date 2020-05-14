@@ -16,6 +16,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BloodClient.cpp" />
     <ClCompile Include="Src\FontManger.cpp" />
     <ClCompile Include="Src\Log.cpp" />
     <ClCompile Include="Src\PlayerTextureGenerator.cpp" />
@@ -40,6 +41,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BloodClient.h" />
     <ClInclude Include="Inc\Client.h" />
     <ClInclude Include="Inc\FontManager.h" />
     <ClInclude Include="Inc\Log.h" />

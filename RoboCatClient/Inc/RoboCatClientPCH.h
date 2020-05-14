@@ -16,6 +16,7 @@
 
 #include <RoboCatClient.h>
 #include <MouseClient.h>
+#include <BloodClient.h>
 #include <YarnClient.h>
 //#include <SoundManager.h>
 

@@ -84,6 +84,7 @@ class GameObject;
 #include "Timing.h"
 #include "Mouse.h"
 #include "Yarn.h"
+#include "Blood.h"
 #include "StringUtils.h"
 #include "ScoreBoardManager.h"
 
