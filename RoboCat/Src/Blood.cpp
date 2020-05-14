@@ -4,8 +4,7 @@
 Blood::Blood()
 {
 	SetScale(GetScale() * 1.f);
-	SetCollisionRadius(20.f);
-	picked = false;
+	SetCollisionRadius(0.f);
 
 }
 
@@ -35,7 +34,7 @@ uint32_t Blood::Write(OutputMemoryBitStream& inOutputStream, uint32_t inDirtySta
 {
 	uint32_t writtenState = 0;
 
-	if (inDirtyState & EMRS_Pose)
+	if (inDirtyState & EBRS_Pose)
 	{
 		inOutputStream.Write((bool)true);
 
@@ -45,20 +44,20 @@ uint32_t Blood::Write(OutputMemoryBitStream& inOutputStream, uint32_t inDirtySta
 
 		inOutputStream.Write(GetRotation());
 
-		writtenState |= EMRS_Pose;
+		writtenState |= EBRS_Pose;
 	}
 	else
 	{
 		inOutputStream.Write((bool)false);
 	}
 
-	if (inDirtyState & EMRS_Color)
+	if (inDirtyState & EBRS_Color)
 	{
 		inOutputStream.Write((bool)true);
 
 		inOutputStream.Write(GetColor());
 
-		writtenState |= EMRS_Color;
+		writtenState |= EBRS_Color;
 	}
 	else
 	{

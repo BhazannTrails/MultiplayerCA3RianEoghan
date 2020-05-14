@@ -1,4 +1,4 @@
-class BloodClient : public Mouse
+class BloodClient : public Blood
 {
 public:
 	static	GameObjectPtr	StaticCreate() { return GameObjectPtr(new BloodClient()); }
