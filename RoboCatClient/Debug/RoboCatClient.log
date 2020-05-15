@@ -1,13 +1,13 @@
-﻿  RoboCatClient.vcxproj -> C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\Debug\RoboCatClient.exe
+﻿  RoboCatClient.vcxproj -> C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\Debug\RoboCatClient.exe
   Copying SDL DLLs...
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libfreetype-6.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libogg-0.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libpng16-16.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libvorbis-0.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libvorbisfile-3.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2_image.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2_mixer.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2_ttf.dll
-  C:\Users\Rian\Documents\GitHub\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\zlib1.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libfreetype-6.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libogg-0.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libpng16-16.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libvorbis-0.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\libvorbisfile-3.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2_image.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2_mixer.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\SDL2_ttf.dll
+  C:\Users\Eoghan\source\repos\MultiplayerCA3RianEoghan\RoboCatClient\\..\SDL\lib\win\x86\zlib1.dll
   10 File(s) copied

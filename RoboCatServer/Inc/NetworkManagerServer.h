@@ -23,6 +23,8 @@ public:
 private:
 			NetworkManagerServer();
 
+			void SendRespondReadyPacket(ClientProxyPtr inClientProxy, InputMemoryBitStream & inInputStream);
+
 			void	HandlePacketFromNewClient( InputMemoryBitStream& inInputStream, const SocketAddress& inFromAddress );
 			void	ProcessPacket( ClientProxyPtr inClientProxy, InputMemoryBitStream& inInputStream );
 			

@@ -7,7 +7,8 @@ class NetworkManagerClient : public NetworkManager
 	{
 		NCS_Uninitialized,
 		NCS_SayingHello,
-		NCS_Welcomed
+		NCS_Welcomed,
+		NCS_Ready
 	};
 
 public:
@@ -16,6 +17,8 @@ public:
 	static	void	StaticInit( const SocketAddress& inServerAddress, const string& inName );
 
 			void	SendOutgoingPackets();
+
+			void UpdateGettingReady();
 
 	virtual void	ProcessPacket( InputMemoryBitStream& inInputStream, const SocketAddress& inFromAddress ) override;
 

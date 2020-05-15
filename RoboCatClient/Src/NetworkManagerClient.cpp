@@ -62,7 +62,18 @@ void NetworkManagerClient::SendOutgoingPackets()
 	case NCS_Welcomed:
 		UpdateSendingInputPacket();
 		break;
+	case NCS_Ready:
+		
+		break;
 	}
+}
+
+void NetworkManagerClient::UpdateGettingReady() {
+
+	OutputMemoryBitStream readyPacket;
+
+	//readyPacket.Write()
+
 }
 
 void NetworkManagerClient::UpdateSayingHello()

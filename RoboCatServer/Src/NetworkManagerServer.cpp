@@ -64,12 +64,26 @@ void NetworkManagerServer::ProcessPacket( ClientProxyPtr inClientProxy, InputMem
 			HandleInputPacket( inClientProxy, inInputStream );
 		}
 		break;
+	case kReadyCC:
+		SendRespondReadyPacket(inClientProxy, inInputStream);
 	default:
 		LOG( "Unknown packet type received from %s", inClientProxy->GetSocketAddress().ToString().c_str() );
 		break;
 	}
 }
 
+void NetworkManagerServer::SendRespondReadyPacket(ClientProxyPtr inClientProxy, InputMemoryBitStream& inInputStream) {
+
+	/*OutputMemoryBitStream respondPacket;
+	uint32_t playerID;
+	inInputStream.Read(playerID);*/
+	
+	/*if (mPlayerReady.find(playerID) == m) {
+
+	}*/
+	//need to check if all the players are ready, and if they are, let the client know so the game can start
+
+}
 
 void NetworkManagerServer::HandlePacketFromNewClient( InputMemoryBitStream& inInputStream, const SocketAddress& inFromAddress )
 {

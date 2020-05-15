@@ -255,6 +255,7 @@ void SFRenderManager::Render()
 		}
 		else
 		{
+			
 			// We are the last man standing.
 			sf::Vector2f cats = NumberofAliveCats();
 
