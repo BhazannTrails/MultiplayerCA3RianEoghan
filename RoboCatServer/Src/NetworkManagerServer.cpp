@@ -44,6 +44,7 @@ void NetworkManagerServer::ProcessPacket( InputMemoryBitStream& inInputStream, c
 }
 
 
+//Some of this is to do with the attempt we made at making the lobby. Antony helped us with this.
 void NetworkManagerServer::ProcessPacket( ClientProxyPtr inClientProxy, InputMemoryBitStream& inInputStream )
 {
 	//remember we got a packet so we know not to disconnect for a bit

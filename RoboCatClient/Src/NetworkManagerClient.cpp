@@ -63,7 +63,7 @@ void NetworkManagerClient::SendOutgoingPackets()
 		UpdateSendingInputPacket();
 		break;
 	case NCS_Ready:
-		
+		//UpdateGettingReady();
 		break;
 	}
 }
