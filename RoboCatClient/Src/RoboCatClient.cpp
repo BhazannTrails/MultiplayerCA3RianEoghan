@@ -1,7 +1,5 @@
 #include <RoboCatClientPCH.h>
 
-
-
 RoboCatClient::RoboCatClient() :
 	mTimeLocationBecameOutOfSync( 0.f ),
 	mTimeVelocityBecameOutOfSync( 0.f ),
@@ -9,7 +7,8 @@ RoboCatClient::RoboCatClient() :
 {
 	m_sprite.reset(new SFSpriteComponent(this));
 
-	SoundManager::sInstance->PlayMusic();
+	//Uncomment this if you want to hear the new music
+	//SoundManager::sInstance->PlayMusic();
 	m_healthSprite.reset(new SFHealthSpriteComponent(this));
 }
 
