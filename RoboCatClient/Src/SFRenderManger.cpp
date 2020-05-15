@@ -128,21 +128,21 @@ sf::Vector2f SFRenderManager::FindCatCentre()
 //using ronans code above to get the players details for the HUD
 uint8_t SFRenderManager::FindCatHealth()
 {
-	//uint32_t catID = (uint32_t)'RCAT';
-	//for (auto obj : World::sInstance->GetGameObjects())
-	//{
-	//	// Find a cat.
-	//	if (obj->GetClassId() == catID)
-	//	{
-	//		RoboCat *cat = dynamic_cast<RoboCat*>(obj.get());
-	//		auto id = cat->GetPlayerId();
-	//		auto ourID = NetworkManagerClient::sInstance->GetPlayerId();
-	//		if (id == ourID)
-	//		{
-	//			return cat->GetHealth();
-	//		}
-	//	}
-	//}
+	uint32_t catID = (uint32_t)'RCAT';
+	for (auto obj : World::sInstance->GetGameObjects())
+	{
+		// Find a cat.
+		if (obj->GetClassId() == catID)
+		{
+			RoboCat *cat = dynamic_cast<RoboCat*>(obj.get());
+			auto id = cat->GetPlayerId();
+			auto ourID = NetworkManagerClient::sInstance->GetPlayerId();
+			if (id == ourID)
+			{
+				return cat->GetHealth();
+			}
+		}
+	}
 	return 0;
 }
 
@@ -240,7 +240,7 @@ void SFRenderManager::Render()
 		SFRenderManager::sInstance->RenderComponents();
 
 		// Draw shadows
-		RenderShadows();
+		//RenderShadows();
 
 		// Draw UI elements.
 		SFRenderManager::sInstance->RenderUI();
@@ -258,15 +258,31 @@ void SFRenderManager::Render()
 			
 			// We are the last man standing.
 			sf::Vector2f cats = NumberofAliveCats();
-
-			
-			if (cats.x == 1.f && FindCatHealth() > 0 && 
-				ScoreBoardManager::sInstance->GetEntry(NetworkManagerClient::sInstance->GetPlayerId())->GetScore() > 0)
+			//add win to a file containing number of wins
+			std::fstream winsFile("../Assets/Saved/Wins.txt");
+			int numWins = 0;
+			if (winsFile.is_open())
 			{
-				// Draw some you are the winner screen.
-				sf::Vector2f winner(view.getCenter().x - view.getSize().x / 2, view.getCenter().y - view.getSize().y / 2);
-				m_winnerScreen.setPosition(winner);
-				SFWindowManager::sInstance->draw(m_winnerScreen);
+				
+				
+			
+				if (cats.x == 1.f && FindCatHealth() > 0 &&
+					ScoreBoardManager::sInstance->GetEntry(NetworkManagerClient::sInstance->GetPlayerId())->GetScore() > 0)
+				{
+					// Draw some you are the winner screen.
+					sf::Vector2f winner(view.getCenter().x - view.getSize().x / 2, view.getCenter().y - view.getSize().y / 2);
+					m_winnerScreen.setPosition(winner);
+					SFWindowManager::sInstance->draw(m_winnerScreen);
+					numWins++;
+					winsFile << numWins;
+					winsFile.close();
+					
+
+				}
+				else
+				{
+					winsFile.close();
+				}
 			}
 		}
 	}
